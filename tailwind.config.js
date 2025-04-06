@@ -21,4 +21,8 @@ export default {
     },
   },
   plugins: [],
+  // Stellen Sie sicher, dass die Konfiguration zur Laufzeit verfügbar ist
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
 }
